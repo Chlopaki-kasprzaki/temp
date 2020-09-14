@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
 }
+
+/* Login */
 .login-form {
   width: 400px;
   margin: 30px auto;
@@ -57,3 +59,23 @@
   top: -11px;
   z-index: 1;
 }   
+
+/* Footer */
+#content-wrap {  /* Z jakiegoś powodu to dodaje szparę między treścią a footerem na 2 rem wysokości */
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: fuchsia;
+  bottom: 0;
+  color: black;
+  height: 2rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
