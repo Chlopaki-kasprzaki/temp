@@ -8,14 +8,14 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Local CSS -->
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="static/index.css">
 </head>
 <body>
   <noscript>Please enable JavaScript, in order to view this website properly.</noscript>
 
     <!-- Nawigacja - Góra -->
     <!-- TOD0: Dodać zwijanie się na małych rozdzielczościach -->
-    <nav class="navbar navbar-expand navbar-light bg-faded sticky-top"> <!-- Nie przewija się przy scrollowaniu -->
+    <nav class="navbar navbar-expand navbar-light bg-light sticky-top"> <!-- Nie przewija się przy scrollowaniu -->
         <a class="navbar-brand" href="#">ShrimpHub</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
@@ -73,23 +73,83 @@
           </ul>
         </div>
       </div>
-      <div class="main col-8">
+      <div class="main col-9">
         <p class="display-4">Strona główna</p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nulla dolorem tenetur corporis sed quaerat soluta omnis ab consequatur inventore, fugiat vero perspiciatis, non doloremque. Placeat accusamus esse distinctio. Modi, facere. Totam, nulla labore veritatis ullam atque cumque vitae sit assumenda illum, quis amet odit laudantium blanditiis, fugit magni dolorem?
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nulla dolorem tenetur corporis sed quaerat soluta omnis ab consequatur inventore, fugiat vero perspiciatis, non doloremque. Placeat accusamus esse distinctio. Modi, facere. Totam, nulla labore veritatis ullam atque cumque vitae sit assumenda illum, quis amet odit laudantium blanditiis, fugit magni dolorem?</p>
         <br>
         
         <!-- TOOD: Karty -->
-        <br><p class="display-4">TUTAJ BĘDĄ KARTY ALE TERAZ WOLĘ SPAĆ</p>
-
-      </div>
-      <div class="right-aside col-2">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dignissimos minus quaerat accusamus ea dolor, saepe dolore laudantium. Ullam libero non delectus nemo saepe explicabo quidem? Dolor odio illo consectetur?
+        <div class="card-columns">
+          <div class="card">
+            <img class="card-img-top" src="static/meme2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Noc z Piotrem</h5>
+              <p class="card-text">Wyjątkowe przeżycie dla wyjątkowej osoby ("Cieszmy się z małych rzeczy, bo [...]").</p>
+              <p class="card-text">Rozmiar: XS<br><b>$24.99</b></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="static/meme10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Przedmiot</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, necessitatibus.</p>
+              <p class="card-text">Rozmiar: XXL<br><b>$20.99</b></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="static/meme10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Przedmiot</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, necessitatibus.</p>
+              <p class="card-text">Rozmiar: XXL<br><b>$20.99</b></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="static/meme10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Przedmiot</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, necessitatibus.</p>
+              <p class="card-text">Rozmiar: XXL<br><b>$20.99</b></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="static/meme10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Przedmiot</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, necessitatibus.</p>
+              <p class="card-text">Rozmiar: XXL<br><b>$20.99</b></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="static/meme10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Przedmiot</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, necessitatibus.</p>
+              <p class="card-text">Rozmiar: XXL<br><b>$20.99</b></p>
+            </div>
+          </div>
+          <!--<div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+              <p>Kolekcja jesienna już w sprzedaży</p>
+              <footer class="blockquote-footer">
+                <small>
+                  Kliknij,  <cite title="Source Title">po więcej</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img" src="static/pajac.jpg" alt="Card image">
+          </div>-->
+        </div>
       </div>
     </div>
   </div>
-
+  <div class="col-1">
+    
+  </div>
   <!-- Footer -->
-  <footer class="page-footer bg-light fixed-bottom text-center">
+  <footer class="page-footer bg-light text-center"> <!-- class: fixed-bottom -->
     <span class="footer-copyright">Tutaj będa wymienieni ludzie pracujący przy tej stronie.</span>
   </footer>
 
